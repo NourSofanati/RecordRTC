@@ -122,7 +122,7 @@ let recorder = RecordRTC(stream, {
     checkForInactiveTracks: false,
 
     // requires timeSlice above
-    onTimeStamp: functiom(timestamp) {},
+    onTimeStamp: function(timestamp) {},
 
     // both for audio and video tracks
     bitsPerSecond: 128000,
